@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 class App
 {
-    public static void main(String args[])
+    public static void main(String args[]) throws StringIndexOutOfBoundsException   
     {
             App anApp = new App();
     }
@@ -86,8 +86,10 @@ class App
         {
 
             System.out.print("\n Play again (Y/N): ");
-            this.theUsersInput = this.someInput.nextLine();
-           
+            this.theUsersInput = this.someInput.next();
+    
+           System.out.print("\n ")  ;
+            
 
             // we get a String in, we only want the first character
             // a String is like an array, the first position starts at 0
