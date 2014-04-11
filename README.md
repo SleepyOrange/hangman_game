@@ -1,4 +1,4 @@
 hangman
 =======
 
-Simple Hangman Game project built in BlueJ, idea is practicing OO programming
+Simple Hangman Game project, idea is practicing OO programming
